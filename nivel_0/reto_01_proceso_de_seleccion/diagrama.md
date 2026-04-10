@@ -1,14 +1,13 @@
 ```mermaid
 graph TD
-    A([Inicio]) --> B{¿Hay fuga de gas?}
-    B -- Sí --> C[Acceso Denegado por Seguridad]
-    B -- No --> D{¿ID válida AND Traje puesto?}
-    D -- Sí --> E[Acceso Autorizado]
-    D -- No --> F{¿ID válida?}
-    F -- Sí --> G[Equipo Incompleto]
-    F -- No --> H[Acceso Denegado: Sin ID]
-    C --> I([Fin])
-    E --> I
-    G --> I
-    H --> I
+    A([Inicio]) --> B{¿Tiene faltas éticas?}
+    B -- Sí --> C[DESCARTADO]
+    B -- No --> D{Ruta 1: > 5 años EXP AND Python}
+    D -- Sí --> E[PRE-SELECCIONADO]
+    D -- No --> F{Ruta 2: Maestría AND Inglés}
+    F -- Sí --> E
+    F -- No --> G[No cumple perfil]
+    C --> H([Fin])
+    E --> H
+    G --> H
 ```
