@@ -5,10 +5,9 @@ n = int(input("cuantas intrucciones se van a ingresar: "))
 pasos_totales = 0
 giros_derecha = 0
 giros_izquierda = 0
-i = 1
 
-while i <= n:
-    instruccion = input("ingrese la instruccion: ").lower()
+for i in range(n):
+    instruccion = input(f"ingrese la instruccion {i+1}: ").lower()
     if instruccion == "paso":
         pasos_totales += 1
     elif instruccion == "giro derecha":
@@ -17,7 +16,6 @@ while i <= n:
         giros_izquierda += 1
     else:
         print("instruccion no valida")
-    i += 1
 
 # Imprimimos los resultados
 print("pasos totales:", pasos_totales)
