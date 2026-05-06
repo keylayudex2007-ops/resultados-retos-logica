@@ -1,4 +1,4 @@
-# 🕺 Reto 02 — El Portero del Club
+# portero del club
 
 **Nivel:** ⭐⭐ Condicionales | **Dificultad:** 🟡 Medio
 

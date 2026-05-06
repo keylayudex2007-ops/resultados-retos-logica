@@ -39,26 +39,4 @@ graph TD
     Aprobado --> End
     Rallando --> End
     Reprobado --> End
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
